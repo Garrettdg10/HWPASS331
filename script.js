@@ -48,12 +48,12 @@ if(specQuestion=== true) {
  
  
   for (let i=0; i <plength; i++){
-    output + characters.charAt(Math.floor(Math.random() * characters.length))
+    output += characters.charAt(Math.floor(Math.random() * characters.length))
   }
   
   
   
-  return output
+  return output;
 }
   //Assigning variables:
   //snag the button
